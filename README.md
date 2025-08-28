@@ -38,9 +38,8 @@ Ensure you have Python installed. It is recommended to use `miniconda` or `conda
 
 ## Code Structure
 
--   <mcfile name="streamlit_app.py" path="streamlit_app.py"></mcfile>: The main Streamlit application file, containing the chatbot UI and logic.
--   <mcfile name="database_tools.py" path="database_tools.py"></mcfile>: Contains functions for interacting with the `sales_data.db` database.
--   <mcfile name="sales_data.db" path="sales_data.db"></mcfile>: A SQLite database file used by the application.
--   <mcfile name="requirements.txt" path="requirements.txt"></mcfile>: Lists all Python dependencies required for the project.
--   <mcfile name="streamlit_react_app.py" path="streamlit_react_app.py"></mcfile>: (Optional) Another Streamlit application, possibly demonstrating React integration.
--   <mcfile name="streamlit_react_tools_app.py" path="streamlit_react_tools_app.py"></mcfile>: (Optional) Another Streamlit application, possibly demonstrating React tools integration.
+- streamlit_app.py: The main Streamlit application file, containing the chatbot UI and logic.
+- database_tools.py: Contains functions for interacting with the sales_data.db database.
+- requirements.txt: Lists all Python dependencies required for the project.
+- streamlit_react_app.py: (Optional) Another Streamlit application, possibly demonstrating React integration.
+- streamlit_react_tools_app.py: (Optional) Another Streamlit application, possibly demonstrating React tools integration.
