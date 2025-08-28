@@ -32,9 +32,28 @@ Ensure you have Python installed. It is recommended to use `miniconda` or `conda
 
     ```bash
     streamlit run streamlit_app.py
-    ```
 
     The application will open in your web browser.
+
+### Running with Docker
+
+1.  **Build the Docker Image**
+
+    Navigate to the project directory and build the Docker image:
+
+    ```bash
+    docker build -t chatbot-streamlit-demo .
+    ```
+
+2.  **Run the Docker Container**
+
+    Run the Docker container, mapping port 8501:
+
+    ```bash
+    docker run -p 8501:8501 chatbot-streamlit-demo
+    ```
+
+    The application will be accessible in your web browser at `http://localhost:8501`.
 
 ## Code Structure
 
