@@ -24,7 +24,6 @@ Ensure you have Python installed. It is recommended to use `miniconda` or `conda
     Navigate to the project directory and install the necessary packages:
 
     ```bash
-    cd /path/to/your/chatbot-streamlit-demo
     pip install -r requirements.txt
     ```
 
